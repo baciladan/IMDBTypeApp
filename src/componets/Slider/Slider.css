@@ -1,0 +1,38 @@
+.movie-container {
+  /* background: linear-gradient(to top left, #808080 -127%, #000000 86%); */
+  background: linear-gradient(to top left, #808080 -220%, #000000 79%);
+  border-radius: 3px;
+  color: white;
+  min-height: 450px;
+  max-height: auto;
+  padding: 20px;
+}
+
+.movie-container:hover {
+  cursor: pointer;
+}
+
+.category-name {
+  color: white;
+  font-size: 25px;
+}
+
+hr {
+  background-color: white;
+}
+
+.movie-details-container {
+  margin-top: 25px;
+}
+
+.movie-icons-container {
+  padding: 5px;
+}
+
+.movie-detail {
+  font-size: 20px;
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}

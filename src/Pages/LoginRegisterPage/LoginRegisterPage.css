@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.userData input {
+    color: white;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.userData p{
+    color:azure;
+}
+
+
+.form-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    background-color: #ffffff24;
+    margin: auto;
+    width: 50%;
+    padding: 100px;
+    margin-top: 15px;
+}
+
+.form-nav{
+    margin-top: 20px;
+    width:50%;
+    padding:10px;
+}
+.form-render{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63vh;
+
+}
+.form {
+    padding: 100px;
+}
+
+.form input { 
+    text-align: center; 
+}
+
+.form-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding:100px;
+}
+
+:focus {
+    outline: none;
+
+}
